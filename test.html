@@ -28,12 +28,10 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
     
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.4/jquery.min.js"> </script>
-    <script> 
-    $(function(){
-      $("#navigation").load("navigation.html"); 
-    });
-    </script> 
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+    <script>
+	    w3.includeHTML();
+    </script>
 
 </head>
 
@@ -43,7 +41,7 @@
   <div class="address-bar">About our group</div>
 
     <!-- Navigation -->
-    <div id="navigation"></div>
+    <div w3-include-html="navigation.html"></div>
 
     <div class="container">
 
