@@ -1,4 +1,4 @@
 # nthu-hep-expt
 
-from
+template: 
 https://startbootstrap.com/template-overviews/business-casual/
